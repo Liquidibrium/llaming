@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "llaming"
+version = "0.1.0"
+readme = "README.md"
+description = ""
+authors = []
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+huggingface-hub = "^0.20.1"
+hf_transfer = "^0.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
